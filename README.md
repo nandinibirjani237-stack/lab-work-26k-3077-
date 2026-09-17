@@ -110,8 +110,8 @@ int main(){
     int marks;
     printf("enter the marks");
     scanf("%d",&marks);
-     ( marks >=50) ? printf("pass") : printf("fail");
-    return 0;
+     ( marks >=50) ? printf("pass") : printf("fail")
     printf("appropriate message.");
-    }
+    
+    return 0 ;
 }
