@@ -105,13 +105,14 @@ int main(){
 }
 
  # task 4
- #include <stdio.h>
+#include <stdio.h>
 int main(){
     int marks;
     printf("enter the marks");
     scanf("%d",&marks);
-     ( marks >=50) ? printf("pass") : printf("fail")
-    printf("appropriate message.");
+     ( marks >=50) ? printf("pass") : printf("fail");
+    return 0;
+}
     
     return 0 ;
 }
